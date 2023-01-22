@@ -6,26 +6,17 @@
 
 <div class="container-fluid">
 <div class="row bg-secondary py-2 px-xl-5">
-    <div class="col-lg-7 d-none d-lg-block ml-2">
-    Güneştepe mah. Necip Fazıl Kısakürek Cd. No:102 <strong>Güngören</strong>
+    <div class="col-lg-7 d-none d-lg-block ml-3">
+   <address style="display: inline;">
+    Güneştepe mah. Necip Fazıl Kısakürek Cd. No:102 <b>Güngören</b> 
+   </address>
     </div>
     <div class="col-lg-4 text-center text-lg-right">
         <div class="d-inline-flex align-items-center">
             <a class="text-dark px-2" href="/#2">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a class="text-dark px-2" href="/#2">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a class="text-dark px-2" href="/#2">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a class="text-dark px-2" href="/#2">
-                <i class="fab fa-instagram"></i>
-            </a>
-            <a class="text-dark pl-2" href="/#2">
-                <i class="fab fa-youtube"></i>
-            </a>
+            <a href="tel:+905395798879">+90 539 579 88 79</a>
         </div>
     </div>
 </div>
