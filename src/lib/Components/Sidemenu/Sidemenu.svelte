@@ -1,7 +1,7 @@
 <script  lang="ts">
 
 	import SideMenuItems from "./SideMenuItems.svelte";
-    let showMenu = false;
+    let showMenu = true;
 
 function toggleMenu() {
   showMenu = !showMenu;
