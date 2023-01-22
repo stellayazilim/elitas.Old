@@ -11,38 +11,6 @@ import DropdownBar from "../DropdownBar/DropdownBar.svelte";
 /* Dropdown variable */
 
 
-/* Owl Carousel */
-
-
-
-let options = {
-    loop: true,
-    margin: 29,
-    nav: false,
-    autoplay: true,
-    smartSpeed: 1000,
-    responsive: {
-        0:{
-            items:2
-        },
-        576:{
-            items:3
-        },
-        768:{
-            items:4
-        },
-        992:{
-            items:5
-        },
-        1200:{
-            items:6
-        }
-    }
-};
-
-/* var owl = new OwlCarousel(carousel, options); */
-
-/* Owl Carousel */
 
 </script>
 <svelte:window bind:innerWidth={width}/>
@@ -59,7 +27,7 @@ let options = {
             <Carousel/><!-- 
             <div id="header-carousel" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
-                    <!-- svelte-ignore missing-declaration -->
+                     svelte-ignore missing-declaration -->
 
        
  <!--                    <OwlCarousel {options}>
