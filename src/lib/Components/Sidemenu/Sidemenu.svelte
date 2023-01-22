@@ -22,6 +22,7 @@ function toggleMenu() {
     </div>
     <nav class="collapse show navbar navbar-vertical navbar-light align-items-start p-0 border border-top-0 border-bottom-0" id="navbar-vertical">
         
+
            
          <!--    <div class="nav-item dropdown">
                 <a href="#" class="nav-link" data-toggle="dropdown">Dresses <i class="fa fa-angle-down float-right mt-1"></i></a>
@@ -31,8 +32,8 @@ function toggleMenu() {
                     <a href="" class="dropdown-item">Baby's Dresses</a>
                 </div>
             </div> -->
-            {#if showMenu} 
-           <SideMenuItems/>
+           {#if showMenu} 
+                <SideMenuItems/>
            {/if}
         
     </nav>
