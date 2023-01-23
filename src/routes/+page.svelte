@@ -1,8 +1,3 @@
-<script>
-
-</script>
-
-
 
 
 <!-- Featured Start -->

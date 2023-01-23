@@ -1,7 +1,8 @@
 <script lang="ts">
 import Sidemenu from "$lib/Components/Sidemenu/Sidemenu.svelte";
-import Carousel from "$lib/Components/Navbar/Carousel.svelte";
+import Carousel from "$lib/Components/home/Carousel.svelte";
 import DropdownBar from "$lib/Components/DropdownBar/DropdownBar.svelte";
+import {page} from "$app/stores"
 
 
 </script>
@@ -11,8 +12,11 @@ import DropdownBar from "$lib/Components/DropdownBar/DropdownBar.svelte";
         <Sidemenu/>
         <div class="col-lg-9" >
             <DropdownBar/>
+            {#if $page.url.pathname == "/"}
+                <Carousel/>
 
-            <Carousel/>
+            {/if}
+            
     
         </div>
     </div>

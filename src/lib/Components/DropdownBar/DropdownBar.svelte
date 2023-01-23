@@ -28,7 +28,7 @@ $:  if (width <= 992)
             <span class="navbar-toggler-icon"></span>
         </button>
         
-        <div class="collapse navbar-collapse justify-content-between"
+        <div class="collapse navbar-collapse justify-content-between " 
              id="navbarCollapse" 
              class:show={isOpen} >
              {#if isOpen}     
